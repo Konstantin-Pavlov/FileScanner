@@ -17,7 +17,7 @@ public class WordCount {
         }
         catch(FileNotFoundException exception) {
             // Handle the situation by letting the user know what happened
-            System.out.println("Cannot find that file");
+            System.out.println("Cannot find this file");
         }
 
     }
