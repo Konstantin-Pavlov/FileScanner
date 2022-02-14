@@ -5,28 +5,13 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class FileScanner {
-    //  (probably) all eng prepositions
-    List<String> prepositions = new ArrayList<>(Arrays.asList(
-            "aboard", "about", "above", "across", "after", "against", "along",
-            "amid", "among", "around", "as", "at", "before", "behind", "below",
-            "beneath", "beside", "between", "beyond", "but", "by", "concerning",
-            "considering", "despite", "down", "during", "except", "except",
-            "following", "for", "from", "in", "inside", "into", "like", "minus",
-            "near", "next", "of", "off", "on", "onto", "opposite", "out", "outside",
-            "over", "past", "per", "plus", "regarding", "round", "save", "since", "than",
-            "through", "to", "toward", "under", "underneath", "unlike", "until", "up",
-            "upon", "versus", "via", "with", "within", "without")
-    );
-    // add articles
-    //in English there are three articles: a, an, and the
-
     public static void main(String[] args) {
         // TODO
         // add methods
         // most frequent word -> done
         // the most rare word
         // words without prepositions -> get prepositions -> done
-        // ‘with’, ‘at’, ‘by’, ‘to’, ‘in’, ‘for’, ‘from’, ‘of’, ‘on’.
+
         try {
             File file = new File("Tales from Dickens by Charles Dickens and Hallie Erminie Rives.txt");
             Scanner scanner = new Scanner(file);
